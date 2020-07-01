@@ -1,0 +1,159 @@
+body {
+	font-family: "Slabo 27px", serif;
+}
+
+a {
+	color: #003fb2;
+}
+
+hr {
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+	height: 0;
+}
+
+input[type="text"] {
+	box-sizing: border-box;
+	height: 48px;
+}
+
+.container {
+	position: relative;
+	max-width: 500px;
+	margin: 0 auto;
+	padding: 16px;
+}
+
+.btn-default {
+	color: #333;
+	background-color: #fff;
+	border-color: #ccc;
+}
+
+.btn-default:hover {
+	color: #333;
+	background-color: #e6e6e6;
+	border-color: #adadad;
+}
+
+#lobby-settings {
+	font-size: 0.9em;
+}
+
+.btn-toolbar {
+	text-align: center;
+	display: inline-block;
+}
+​ .form-group {
+	text-align: center;
+}
+
+.drawing {
+	outline: 1px solid LightGrey;
+	width: 100%;
+}
+
+.gamecode {
+	font-family: monospace;
+	box-shadow: 0 0 10pt 1pt LightGrey;
+	padding: 5px;
+}
+
+.gamecode-entry {
+	font-family: monospace;
+}
+
+.user {
+	border: 1px solid LightGrey;
+	padding: 8px;
+}
+
+.user-container {
+	padding: 3px;
+	width: 50%;
+}
+
+.disconnected {
+	background-color: LightGrey;
+}
+
+.drawphone-info {
+	text-align: left;
+	font-size: 125%;
+}
+
+.alert {
+	text-align: left;
+}
+
+.input-container {
+	text-align: left;
+	max-width: 16em;
+	align-self: center;
+	margin: 0 auto;
+}
+
+.thanks-panel {
+	display: inline-block;
+	margin-top: 1em;
+	font-size: 0.9em;
+}
+
+.prevresbtn {
+	white-space: normal;
+}
+
+.neighboring-players-container {
+	display: flex;
+	margin-bottom: 1em;
+}
+
+.player-name {
+	flex-grow: 3;
+	align-self: flex-end;
+}
+
+.next-player-arrow {
+	flex-grow: 2;
+	align-self: flex-end;
+	transform: scale(2, 1);
+}
+
+/* buy me a taco button */
+.bmc-button .taco {
+	margin-bottom: 1px !important;
+	box-shadow: none !important;
+	border: none !important;
+	vertical-align: middle !important;
+	font-size: 1.5em;
+	line-height: 1em;
+}
+.bmc-button {
+	padding: 7px 10px 7px 10px !important;
+	text-decoration: none !important;
+	display: inline-flex !important;
+	color: #ffffff !important;
+	background-color: #ff813f !important;
+	border-radius: 5px !important;
+	border: 1px solid transparent !important;
+	padding: 7px 10px 7px 10px !important;
+	box-shadow: 0px 1px 2px rgba(190, 190, 190, 0.5) !important;
+	-webkit-box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5) !important;
+	margin: 0.5em 0.3em 0;
+	-webkit-box-sizing: border-box !important;
+	box-sizing: border-box !important;
+	-o-transition: 0.3s all linear !important;
+	-webkit-transition: 0.3s all linear !important;
+	-moz-transition: 0.3s all linear !important;
+	-ms-transition: 0.3s all linear !important;
+	transition: 0.3s all linear !important;
+}
+.bmc-button:hover,
+.bmc-button:active,
+.bmc-button:focus {
+	-webkit-box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5) !important;
+	text-decoration: none !important;
+	box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5) !important;
+	opacity: 0.85 !important;
+	color: #ffffff !important;
+}
